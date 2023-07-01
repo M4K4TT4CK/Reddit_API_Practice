@@ -1,279 +1,58 @@
 subreddit,title,selftext,upvote_ratio,ups,downs,score
-WGU,WGU Acceleration Survey Results,"First off this: [https://gph.is/1EoZOyA](https://gph.is/1EoZOyA)
-
-Sorry, I'm late my a few days, I got called out of town at the last minute. I may have made an error or two, but I spent about three days scrubbing this and it seems fairly stable.
-
-These are the results of the WGU Acceleration Survey (First Pass). In this pass, I will focus on the numbers and summary of what was submitted. As context, these are the responses to the survey [request linked here.](https://www.reddit.com/r/WGU/comments/cw9oxv/wgu_acceleration_survey/)
-
-I will work on a textual analysis of the comments submitted and post that under a separate post (that may take a while).
-
-The survey is closed and here are the results:
-
-**TOTALS**:
-
-|School|Number Responding|Bachelors|Masters|Percent of current enrollment|
-|:-|:-|:-|:-|:-|
-|Business|297|246|51|0.75%|
-|Information Technology|269|242|27|1.46%|
-|Teaching|58|29|29|0.24%|
-|Nursing|19|11|8|0.07%|
-
-**Median Pace Reporting (half of the students reported faster, half reported slower):**
-
-|Degree|Business|IT|Teaching|Nursing|
-|:-|:-|:-|:-|:-|
-|Bachelors|23|23|23|22.8|
-|Masters|23|11.5|22.8|19.1|
-
-&gt;Because this is named an Acceleration Survey, it's likely that more Accelerators answered than non-accelerators. Also, if a Bachelor's Degree is 120 credits, the median time to complete for Accelerators is 5.2 terms, or just over 2.5 years.
-
-Since we have such a small sample size for Teaching and Nursing, I will exclude those from the rest of the results.
-
-In order to measure acceleration over the median, I will use the following scale:
-
-1 = Median progress (23 credits per term for Bachelors)
-
-2 = Double pace (46/term) up to 5 = Hyper Accelerators (115+ credits in a single term)
-
-In this way, we can try to understand how each factor, on its own, contributes towards acceleration. For any statistics masters out there, yes it would be more useful to do an ANOVA for all variables, but as we know, the survey wasn't completely scientific, so such rigor is unlikely to show anything more than a simple analysis.
-
-**Factor 1 - Credits Transferred in:**
-
-|Credits|Business (Average/StDev)|IT|
-|:-|:-|:-|
-|None|1.9 / 1.4|2.3 / 1.5|
-|1-15|1.7 / 1.3|1.5 / 1.1|
-|16-30|1.6 / 0.9|1.7 / 1.3|
-|31-60|1.6 / 1.1|1.5 / 0.9|
-|More than 60|1.3 / 0.5|1.5 / 0.9|
-
-&gt;This makes sense as students who transfer in more credits have fewer credits to complete and thus hyper-acceleration isn't a factor. It's also interesting that having at least some credits seems to help acceleration.
-
-**Factor 2 - Prior Education:**
-
-|Education|Business|IT|
-|:-|:-|:-|
-|High School|1.9 / 1.6|1.6 / 1.1|
-|Some College|1.7 / 1.1|1.8 / 1.3|
-|Associates|1.5 / 1.0|1.5 / 0.8|
-|Bachelor's|1.2 / 0.4|1.3 / 0.8|
-
-&gt;Again, seems to make sense that more college means fewer credits to accelerate and at least for IT some college is better than no college.
-
-**Factor 3 - Years away from college (r=0.8)**
-
-|Years away|Business|IT|
-|:-|:-|:-|
-|None|1.2 / 0.8|1.3 / 0.9|
-|1-5|1.6 / 1.1|1.5 / 1.0|
-|6-9|1.6 / 0.9|1.8 / 1.3|
-|10+|1.8 / 1.2|1.8 / 1.2|
-
-&gt;This looks interesting as it suggests that time away from education may have a positive impact on acceleration.
-
-**Factor 4 - Years of Experience in your field (Bus r=0.6 / IT r=0.7)**
-
-|Years of Experience|Business|IT|
-|:-|:-|:-|
-|None|1.8 / 1.2|1.3 / 0.9|
-|1-5|1.3 / 0.8|1.5 / 1.0|
-|6-9|2.0 / 1.2|1.7 / 0.9|
-|10+|1.7 / 1.2|1.9 / 1.3|
-
-&gt;This suggests that lots of IT experience may help, but it's not nearly as clear of a benefit on the business side.
-
-**Factor 5 - How smart do you think you are (Bus r=0.9 / IT r=0.5)**
-
-|Smart|Business|IT|
-|:-|:-|:-|
-|Below Average|1.0 / 0.7|1.4 / 0.5|
-|Average|1.5 / 1.1|1.5 / 1.0|
-|Above Average|1.6 / 1.0|1.5 / 1.1|
-|Extremely Smart|2.4 / 1.3|2.2 / 1.4|
-
-&gt;About half of all surveyed answered above average. People who considered themselves exceptional did a bit better on acceleration.
-
-**Factor 6 - How comfortable are you taking tests (Bus r=0.9 / IT r=0.6)**
-
-|Comfort|Business|IT|
-|:-|:-|:-|
-|Panic|0.7 / 0.5|1.3 / 0.5|
-|Uncomfortable|1.2 / 0.8|1.3 / 1.0|
-|Average|1.5 / 1.1|1.3 / 0.5|
-|Above Average|1.5 / 0.9|1.4 / 1.0|
-|Exceptional|2.0 / 1.3|1.9 / 1.3|
-
-&gt;This factor seems to be fairly important with those saying they are good test takers doing significantly better.
-
-**Factor 7 - How comfortable are you reading complex topics (Bus r=0.8 / IT r=0.5)**
-
-|Comfort|Business|IT|
-|:-|:-|:-|
-|Terrible|0.8 / 0.4|1.3 / 0.6|
-|Uncomfortable|1.5 / 1.1|1.6 / 1.1|
-|Average|1.4 / 0.8|1.3 / 0.7|
-|Above Average|1.5 / 1.0|1.5 / 1.1|
-|Exceptional|2.2 / 1.3|2.0 / 1.3|
-
-&gt;This shows that only those who believe they are exceptional readers correlated with higher acceleration.
-
-**Factor 8 - How well do you write (Bus r=0.2 / IT r=-0.2)**
-
-|Writing|Business|IT|
-|:-|:-|:-|
-|Terrible|1.0 (only 1 reporting)|1.5 / 0.6|
-|Poor|1.8 / 1.3|1.6 / 1.1|
-|Average|1.4 / 1.0|1.6 / 1.0|
-|Above Average|1.7 / 1.2|1.6 / 1.1|
-|Exceptional|1.7 / 1.0|1.6 / 1.2|
-
-&gt;Again, no clear determination that writing well will help you do accelerate.
-
-**Factor 9 - Current Employment (Bus r=-0.8 / IT r=0.7)**
-
-|Employment|Business|IT|
-|:-|:-|:-|
-|Unemployed|1.8 / 1.3|1.4 / 1.0|
-|Part-Time|1.6 / 1.1|1.6 / 1.1|
-|Full-Time|1.6 / 1.1|1.6 / 1.1|
-|Overtime|1.7 / 1.0|1.3 / 0.8|
-
-&gt;70-80% of respondents said they were full time employed. Work seems to hurt Business Students but help IT students accelerate
-
-**Factor 10 - Family Obligations (Bus r=0.1 / IT r=0.8)**
-
-This was hard as several options can be combined, So I ranked the burden into groups:
-
-|Family Obligations|Business|IT|
-|:-|:-|:-|
-|0 - None|1.9 / 1.3|1.3 / 0.6|
-|1 - Spouse/Companion Only|1.7 / 1.1|1.7 / 1.1|
-|2 - Caregiver / Spouse+1 / Spouse+Exceptional|1.5 / 1.1|1.4 / 1.0|
-|3 - Sole Parent / Sole Exceptional / Spouse+2|1.6 / 1.0|1.8 / 1.3|
-|4 - Sole Parent 2+ / Spouse+2+Caregiver / Spouse+2+Exceptional|1.5 / 1.2|2.2 / 1.4|
-|5 - Anything over 4|2.5 / 1.9|1.0 (only 1 reporting)|
-
-&gt;For business, very little correlation on this one and I tried to sort it in different ways to find one. For IT it appears strongly correlated (more family = more acceleration)
-
-**Factor 11 - Own study or workspace**
-
-|Own Space|Business|IT|
-|:-|:-|:-|
-|Yes|1.6 / 1.1|1.5 / 1.0|
-|No|1.7 / 1.0|2.0 / 1.4|
-
-&gt;75% reported having their own space, so this one is not strongly correlated.",0.99,199,0,199
-WGU,I'm done. Finished all 109 credit hours.,"I finished in 1 month. This was only possible because :
-
-1. I was sick and lost my job months ago, finally got better and realized I had the time &amp; ability to get a degree. I wanted to do it as fast as possible because I desperately need health insurance (I have a severe medical issue that requires annual testing)
-2. I had 10-16 hours a day dedicated to school
-3. I knew a good amount already, especially in the business classes (more than I thought initially.)
-4. I am a better than average test taker.
-5. I like to read.
-
-Even with that I thought this would take me Minimum 3 months, Did it in 1. I am shocked. I did not think this was possible.
-
-Do NOT feel bad if you are going at a slow pace. I did not have a life outside of school for that entire month. My average phone usage was 22 min a day.  My brain is fried. If I had to work full time this would have taken me 10x longer. If I had a family to take care of, even longer.
-
-I am very happy with my accomplishment though.  Hope to get a good job with benefits.
-
-https://preview.redd.it/ih8um415gb9b1.jpg?width=1122&amp;format=pjpg&amp;auto=webp&amp;v=enabled&amp;s=6e496d07075d68867bcf2d50912e2377ba07741d
-
-https://preview.redd.it/eiwtp515gb9b1.jpg?width=1105&amp;format=pjpg&amp;auto=webp&amp;v=enabled&amp;s=86cd09727cef8f1046ab2e59c5f74c3bc32a5d4f",0.72,26,0,26
-WGU,Why did you choose WGU?,,0.94,47,0,47
-WGU,START TOMORROW!!!!!!!,"Is there any last minute advice that everyone can give me, thanks! Im pursuing a BCSIA already transferred 50% of the degree in. The only 3 classes that I'm a little worried about is the CySA+, Pentest+, and the intro to cryptography. I really want to complete in one term but feel like those 3 classes are really not gonna make it possible but we'll see! ",0.92,28,0,28
-WGU,MSCSIA Complete!,,0.98,145,0,145
-WGU,Starting TODAY!!!,starting BSCIA today! who else is starting as well (any IT degree)?,0.94,16,0,16
-WGU,Finished my first term with 13 classes completed,23 more to go 💀,0.94,12,0,12
-WGU,I can't start my courses!?,I start my first team today and I was able to take a pre assessment and the course tool.  I'm unable to launch the freaking course.  What should I do to resolve this?,1.0,2,0,2
-WGU,Just passed Comptia Project+ a few hours ago.,"Just wanna brag that I passed Comptia Project+. It was a course in my IT degree that has caused me major grief. It feels great to now have A+, Net+,  Sec+, Cloud+ and Project+..",0.9,7,0,7
-WGU,"1st Month, 1/3 Finished. Let’s go",,0.95,29,0,29
-WGU,D100(intro to spreadsheet) passed…..,,1.0,33,0,33
-WGU,Someone please pep talk me so I can finish this degree on time.,"I am in my last semester, 32 days to go, with a test scheduled tomorrow that I am definitely not ready for. 
-I need July to do my capstone so it’s important that I finish this class asap.. but I am feeling so overwhelmed.  The class is C777 (6 credit) and I just feel the amount of information is crushing me. Does anyone have any tips on this course or kind words to put me in the headspace I need to be in? 
-
-Alternatively, can you tell me how you finished strong? I feel the weight of the finish line and it seems so beyond me in this moment even though everyone says I’m almost there. It’s like walking a rickety bridge over a chasm, and “almost there” doesn’t mean safe.",0.92,28,0,28
-WGU,Course Instructor Help,So I started my first course and don't have a course instructor. Is this because its the weekend and won't get one till Monday?,1.0,1,0,1
-WGU,Facebook Groups,"Could anyone recommend anyFacebook groups for the Education program. I am specifically BA Elem. Ed. 
-
-Also, are they more active than reddit? I don't like Facebook but I'll make one if it's worth it. TIA :)",1.0,1,0,1
-WGU,My degree plan gave me a heart attack today.,"I switched degrees and nh degree completion should  have shot up to about 60% completed, instead it dropped to 25% . I panicked because the title of it is the correct degree, but it is full of the old classes still plus some other ones that weren't on my old degree or the new one. Hopefully this gets fixed soon, I have a meeting on Monday to register classes as my mentor wouldn't let me before the program switch. Hopefully it is done by then.",1.0,1,0,1
-WGU,Can you do two classes simultaneously? is it allowed?,I want to do 2 classes simultaneously since the other one has a PA. I think I would be able to get ideas from the first class that I can put into the PA paper.,1.0,1,0,1
-WGU,Just graduated from WGU in Information Technology!,,0.97,106,0,106
-WGU,A final push!,"I am officially down to my capstone! Bachelors of Business, Management!!!!",0.97,62,0,62
-WGU,BSCC Complete!,"&amp;#x200B;
-
-https://preview.redd.it/tznv1897a89b1.png?width=780&amp;format=png&amp;auto=webp&amp;v=enabled&amp;s=4fc3a1c418a32bc941431366f49f12b0fd74da5b
-
-I earned the following certifications along the way, most of which transferred into my degree!
-
-1. Microsoft Certified: Azure Fundamentals
-2. Microsoft Certified: Azure Administrator Associate
-3. Microsoft Certified: Azure Developer Associate
-4. AWS Certified Cloud Practitioner
-5. AWS Certified Solutions Architect Associate
-6. CompTIA A+
-7. CompTIA Network+
-8. CompTIA Security+
-9. CompTIA Cloud+
-10. CompTIA IT Operations Specialist
-11. CompTIA Secure Infrastructure Specialist
-12. CompTIA Secure Cloud Professional
-13. CompTIA Cloud Admin Professional
-14. Google Cloud Certified Cloud Digital Leader
-15. Google Cloud Certified Associate Cloud Engineer
-16. Google Cloud Certified Professional Cloud Developer
-17. ITIL 4 Foundation Certificate in IT Service Management
-18. LPI Linux Essentials
-19. (ISC)2 Certified Cloud Security Professional (CCSP)",1.0,14,0,14
-WGU,What do you all think of the updates to the SAP?,"I got this email today regarding changes to the SAP. this is what it says.
-
-Policy Updates
- 
-To provide additional clarity and continuously improve the student experience, the Academic Progress and Satisfactory Academic Progress (SAP) policies have been updated effective for terms beginning on or after July 1, 2023.
-
-The Academic Progress student handbook policy includes the following updates:
-In lieu of a minimum credit unit (CU) requirement based on the program level, all students, regardless of program level, must now complete at least 1 CU.
-Administrative withdrawal due to lack of academic progress is now conditional on student failure to complete at least 1 CU in two consecutive terms rather than a single term.
-The academic suspension period was shortened from 6 to 3 months.
-The Satisfactory Academic Progress (SAP) student handbook policy includes the following updates:
-SAP requirements will be the same for all terms.
-Students that do not complete courses in a single term and have not achieved a 66.67% SAP standing will have a warning term, allowing them to get back in good standing by the end of their next term.
-Please continue to discuss your academic progress with your Program Mentor regularly to ensure you meet these policies. Thank you for continuing to choose WGU for your educational endeavors.
-
-
-Sincerely,
-
-
-Office of the Registrar and Financial Aid
-
-Anyway what do y'all think?",1.0,6,0,6
-WGU,Am I an idiot?,"Imma branch manager of a bank. Earlier this year I graduated with a bachelors degree in business administration IT management. This degree was essentially free because I recycled tuition reimbursement from my job the whole way. I chose IT management because I made it halfway through a data analytics degree and wanted to pivot, and that was the quickest path to a degree. Instead of getting a masters degree, I chose to go for the bachelors in finance program that WGU recently launch. I chose this because I didn’t see myself getting into IT, I already managed a bank, and I was very close to being done. I started the term at 80% complete with about 11 classes to go. This go around I had to take out student loans. Now that I’m almost done, I’m regretting not continuing to pursue an IT career (I did get an A+ cert in my first). Am I wasting time and money getting multiple bachelor degrees?",0.75,2,0,2
-WGU,Is a Bachelor's in Cloud Computing and Master's in Cybersecurity the best path for cloud security?,"I'll be starting my BS in Cloud Computing in a few months, should I shoot for the Cybersecurity Master's after that?",0.81,3,0,3
-WGU,Version Control D197 Tips,"This course isn't that bad to begin with. You should download Git and VS Code before you start doing anything else. It might confusing at first, but take your time to learn it if you don't already know how to use it. Really it should only take 1 day for you to do it as long as you understand it and not be confused by the instructions. There's several great sources I'll provide to you because they're very helpful and simplistic in regards to using Git. You'll be using Git, Gitlab, and VS Code for modifying files on there. I watched several different videos that should help you out and I will include a Git command cheatsheet in the links below as well because it'll help you do version control better by not having to memorize every command. There's also a reddit post I'll link below as well. I didn't use any of the learning resources they provided to you for learning Git/Version Control. Take a look at the videos because it'll help you out big time.
-
-[https://www.youtube.com/watch?v=hrTQipWp6co](https://www.youtube.com/watch?v=hrTQipWp6co)
-
-[https://www.youtube.com/watch?v=1ibmWyt8hfw](https://www.youtube.com/watch?v=1ibmWyt8hfw)
-
-[https://www.youtube.com/watch?v=Q1kHG842HoI](https://www.youtube.com/watch?v=Q1kHG842HoI)
-
-[https://supersimpledev.github.io/references/git-github-reference.pdf](https://supersimpledev.github.io/references/git-github-reference.pdf)
-
-This is the reddit post that explains everything in greater detail on what you should be doing. It should hopefully simplify the instructions for you, so you understand how to finish this course. At first, I experienced confusion and it made me take longer than normal. I took 2 days to complete this version control assessment. [https://www.reddit.com/r/WGU/comments/13ud7kq/d197\_version\_control\_guide/?utm\_source=share&amp;utm\_medium=web2x&amp;context=3](https://www.reddit.com/r/WGU/comments/13ud7kq/d197_version_control_guide/?utm_source=share&amp;utm_medium=web2x&amp;context=3)",1.0,2,0,2
-WGU,Just passed Business of IT - Project Management - C176 (Project+),"This was a rough one.  
-
-The CompTIA course material provided in the C176 course materials is good for studying. I found nothing better.  
-Normally the CompTIA materials suck badly, so I ignored them. Finally,finding nothing decent, I tried them.  
-Not horrible. A first. Read the material, and use the chapter tests, PBQ, and labs.  
-Ignore the practice exams till the end. They are tough- tougher than the real test. Don't take them too soon, they will discourage.
-
-Go get the Wiley book in the WGU library and use it to sign up for their practice exams. Use these practice exams to test progress and see where you need to focus your study.    
-[Wiley CompTIA Project+ Practice Tests : Exam PK0-005](https://eds.p.ebscohost.com/eds/detail/detail?vid=6&amp;sid=55f7816a-21e4-4a8b-955b-687ca3f2d322%40redis&amp;bdata=JnNpdGU9ZWRzLWxpdmUmc2NvcGU9c2l0ZQ%3d%3d#AN=ebc.EBC7119860&amp;db=cat07141a)
-
-Pluralsight has a set of Project+ videos that were helpful, I use them as background noise when I have to do other things away from my desk.  
-
-WGU pluralsite login is borked, but if you do the provision link to access it works. Log in to WGU, then go here. You MUST log in to WGU first or it will fail. Ignore the content and search for PK0-005.  
-https://app.pluralsight.com/library/courses/introduction-web-2328",0.86,5,0,5
-WGU,Only 1CU ? 😦,,0.84,4,0,4
-WGU,Anyone else try to register and there term just disappeared?,,0.67,1,0,1
+pics,"On The State of /r/PICS: Profanity, Offensive Content, and An Open Letter","Hello yet again, /r/PICS!
+
+Things have never looked better (or sexier) here, have they? Honestly, the moderation team was a bit skeptical about only allowing media featuring John Oliver… but that’s what you voted for, and we have to admit that you were right to do so!
+
+Unfortunately, it turns out that we overlooked a small problem.
+
+According to [Reddit’s policies](https://www.reddit.com/wiki/contentpolicy), “content that contains nudity, pornography, or profanity […] should be tagged as NSFW.” While we did [ask the community to tag *anything* even *remotely* NSFW](https://www.reddit.com/r/pics/comments/14fafqt/rpics_is_now_rpics/), we’ve nonetheless seen a lot of swearing in non-NSFW threads. Since Reddit has [officially stated](https://www.redditinc.com/policies/content-policy) that we are expected to “ensure people have predictable experiences on Reddit by properly labeling content […] that is graphic, sexually-explicit [sic], or offensive,” this democratic approach to tagging is putting the community in jeopardy. Additionally, since a distressingly large number of people have expressed that they are offended by the sight of John Oliver, we are forced to conclude that media featuring the man is regarded by some as “offensive.”
+
+Now, we really, *really* don’t want to mark /r/PICS as being NSFW. Doing so would mean that we were no longer discoverable, that we would no longer show up in Reddit’s main feeds, and that millions of people would be deprived of John Oliver’s presence on their screens. It would also have the effect of keeping Reddit from showing advertisements alongside our posts, which we feel would be unfair. (After all, Reddit generously hosts our little community, and we’d hate to adversely affect them by making an immediate, detrimental change to that arrangement.) However, unless things here change, we may have no choice.
+
+We therefore have two simple requests for you:
+
+- **Please do not use any (a NSFW link follows this parenthetical) [profanity](https://i.imgur.com/cKxWaWf.png) in non-NSFW threads.**
+- **If you post anything that could possibly offend anyone, please tag it as being NSFW.**
+
+As we do not have time to put this to a vote (since Reddit is [moving *very* quickly against communities that it deems to be problematic](https://www.reddit.com/r/ModCoord/comments/14eyx90/comprehensive_list_of_all_subs_with_mod_teams/)), we are pleading for all of /r/PICS to behave in a responsible manner. The continued inclusion of profanity or offensive content in non-NSFW threads will leave us with no option but to mark the entire subreddit as NSFW, which – as previously stated – we do not want to do.
+
+Before we sign off, we want to address some potential concerns:
+
+**Q: Will making /r/PICS a NSFW subreddit result in the moderators being removed?**     
+**A:** ¯\\\_(ツ)_/¯. Moderators were removed from communities that were “[encouraging sexually explicit content](https://www.reddit.com/r/3d6/comments/14gk57i/modpost_a_message_from_umodcodeofconduct_and_a/),” and some were *threatened* with removal if they “incorrectly” marked communities as NSFW “[as a form of protest](https://www.theverge.com/2023/6/21/23768836/reddit-changing-safe-for-work-communities-nsfw-not-acceptable).” /r/PICS has always mandated against pornography (and that will remain unchanged), but has allowed tasteful nudity, profanity, and content that might be defined as “offensive.” Therefore, /r/PICS will not be made NSFW as a form of protest: Any such change will be enacted in order to comply with Reddit’s policies. If Reddit were to remove moderators from /r/PICS, that action would go against their own publicly affirmed guidelines.
+
+**Q: Wait, is /r/PICS NSFW right now?**     
+**A:** No. We're just asking that if you *have* to post something NSFW, *please tag it appropriately*. Do not post pornography – that rule is unchanged – but ask yourself if you're offering either profanity or anything that could be construed as “offensive” by anyone.
+
+**Q: Can we still post media featuring John Oliver?**      
+**A:** Yes. However, again, please tag all submissions – be they posts or comments – appropriately.
+
+**Q: Do you – the moderators – have anything that you’d like to say directly to Reddit’s administrators?**      
+**A:** What an amazingly prescient question! Yes, in fact, we *do* have something to say. We’ll include it as a comment!
+
+That’s all for now, folks! Thank you for making /r/PICS and Reddit great!",0.86,3353,0,3353
+pics,Met John Oliver at the WGA strike rally yesterday outside WBD HQ! Genuinely swell guy!,,0.85,24757,0,24757
+pics,John Oliver in college with Richard Ayoade and David Mitchell,,0.87,859,0,859
+pics,John oliver conclusion,,0.86,340,0,340
+pics,"Guess this is it, see you later Reddit. John Oliver",,0.79,27255,0,27255
+pics,"I'm not leaving, but I am cancelling my sub. Also John Oliver",,0.77,339,0,339
+pics,This button still exists on old Reddit. Sad how their attitude changed... John Oliver,,0.7,31,0,31
+pics,John Oliver's tips for at least one app alternative,,0.73,265,0,265
+pics,How Reddit official app devs respond to requests for simple features. Keep up the John Oliver posts!,,0.72,52,0,52
+pics,"""Farewell"", John Oliver",,0.86,454,0,454
+pics,John Oliver visits reddit admins,,0.83,649,0,649
+pics,John Oliver will miss RIF! My eulogy overwhelmed him!,,0.82,123,0,123
+pics,Spotted John Oliver being a supportive king at a WGA protest today!,,0.85,25390,0,25390
+pics,John Oliver as Obi Wan Kenobi,,0.66,27,0,27
+pics,It's not even midnight here. Let us join John Oliver in mourning for RiF. It will be missed.,,0.68,50,0,50
+pics,"So long John Oliver, and thanks for all the fish",,0.75,32,0,32
+pics,Stoked that John Oliver showcased my art in his exhibition of malicious compliance,,0.79,107,0,107
+pics,John Oliver holding a baby picture of /u/spez,,0.73,46,0,46
+pics,"Welp, it happened, and this sub will probably be John Oliver themed forever now.",,0.62,2,0,2
+pics,John Oliver stopped by the West Side Comedy Club in NYC.,,0.71,19,0,19
+pics,John Oliver and the president of China,,0.83,386,0,386
+pics,John oliver says eat your vegetables,,0.68,14,0,14
+pics,"I see someone is disliking the John Oliver posts. Well, I'll add mooore",,0.76,9889,0,9889
+pics,John Oliver battling u/spez,,0.43,0,0,0
+pics,Lemming John Oliver wonders if he could be of assistance.,,0.6,5,0,5
+pics,RIP Apollo. John Oliver for ab visibility.,,0.5,0,0,0

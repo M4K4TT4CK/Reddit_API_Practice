@@ -6,15 +6,15 @@ import csv
 # print(dir(requests))
 
 # note that CLIENT_ID refers to 'personal use script' and SECRET_TOKEN to 'token'
-auth = requests.auth.HTTPBasicAuth('itujBVEkqXCJNfWnjJzx8w', 'CYO4Y6qkLGEqb5dejqzIr-HSiw5kYg')
+auth = requests.auth.HTTPBasicAuth('USE_SCRIPT', 'SECRET')
 
 # here we pass our login method (password), username, and password
 data = {'grant_type': 'password',
-        'username': 'M4K4TT4CK',
-        'password': 'R0Wan20!7'}
+        'username': 'YOUR_USER',
+        'password': 'YOUR_PASS'}
 
 # setup our header info, which gives reddit a brief description of our app
-headers = {'User-Agent': 'MyBot/0.1'}
+headers = {'User-Agent': 'YOUR_BOT'}
 
 # send our request for an OAuth token
 res = requests.post('https://www.reddit.com/api/v1/access_token',
@@ -31,7 +31,7 @@ headers = {**headers, **{'Authorization': f"bearer {TOKEN}"}}
 # while the token is valid (~2 hours) we just add headers=headers to our requests
 requests.get('https://oauth.reddit.com/api/v1/me', headers=headers)
 
-res = requests.get("https://oauth.reddit.com/r/wgu/hot",
+res = requests.get("https://oauth.reddit.com/r/pics/hot",
                    headers=headers)
 
 df = pd.DataFrame()  # initialize dataframe
@@ -49,8 +49,8 @@ for post in res.json()['data']['children']:
         'score': post['data']['score']
     }, ignore_index=True)
 
-df.to_csv('reddit_posts.csv', index=False)
-
-print("CSV file exported successfully.")
+# df.to_csv('reddit_posts.csv', index=False)
+#
+# print("CSV file exported successfully.")
 
 print(df.head())
